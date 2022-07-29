@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testRunner.CrossBrowsingRunnerTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testRunner.CrossBrowsingRunnerTest -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+  <test thread-count="5" parallel="tests" name="chromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testRunner.CrossBrowsingRunnerTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testRunner.CrossBrowsingRunnerTest -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="FireFox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testRunner.CrossBrowsingRunnerTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testRunner.CrossBrowsingRunnerTest -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
