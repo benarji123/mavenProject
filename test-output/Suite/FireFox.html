@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FireFox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 29 11:21:23 IST 2022</td>
+<td>Started on:</td><td>Fri Jul 29 17:19:02 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22010 ms)</td>
+<tr><td>Total time:</td><td>304 seconds (304823 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login", "login"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #menu_dashboard_index
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new customer", "Add new Customer in telecom application"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #google_ads_iframe_\/24132379\/INTERSTITIAL_DemoGuru99_0__container__
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;DESKTOP-5G78EO0&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [94c9ab26-2497-4efa-bbfe-ef30727f2996, findElement {using=id, value=menu_dashboard_index}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54905, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 5308, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 94c9ab26-2497-4efa-bbfe-ef30727f2996
+Command: [e7862f6a-3263-4ab5-a4d8-09674f360697, findElement {using=id, value=google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0__container__}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:56446, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4872, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56446/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7862f6a-3263-4ab5-a4d8-09674f360697
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -96,17 +96,18 @@ Session ID: 94c9ab26-2497-4efa-bbfe-ef30727f2996
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_should_see_the_dashboard(StepDefinitionsForCrossBrowsing.java:100)
-	at ?.i should see the dashboard(file:///D:/workspace/Practice/src/test/resources/parallel/Login.feature:10)
-... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1930406285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1930406285'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #menu_dashboard_index
+	at PageObjectModel.HomePage.removeAdd(HomePage.java:52)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.click_on_telecom_project_link(StepDefinitionsForCrossBrowsing.java:133)
+	at ?.click on telecom project link(file:///D:/workspace/Practice/src/test/resources/parallel/CreateNewCustomer.feature:7)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace471087396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace471087396'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #google_ads_iframe_\/24132379\/INTERSTITIAL_DemoGuru99_0__container__
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;DESKTOP-5G78EO0&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [94c9ab26-2497-4efa-bbfe-ef30727f2996, findElement {using=id, value=menu_dashboard_index}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54905, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 5308, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 94c9ab26-2497-4efa-bbfe-ef30727f2996
+Command: [e7862f6a-3263-4ab5-a4d8-09674f360697, findElement {using=id, value=google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0__container__}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:56446, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4872, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56446/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7862f6a-3263-4ab5-a4d8-09674f360697
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,10 +124,251 @@ Session ID: 94c9ab26-2497-4efa-bbfe-ef30727f2996
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_should_see_the_dashboard(StepDefinitionsForCrossBrowsing.java:100)
-	at ?.i should see the dashboard(file:///D:/workspace/Practice/src/test/resources/parallel/Login.feature:10)
+	at PageObjectModel.HomePage.removeAdd(HomePage.java:52)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.click_on_telecom_project_link(StepDefinitionsForCrossBrowsing.java:133)
+	at ?.click on telecom project link(file:///D:/workspace/Practice/src/test/resources/parallel/CreateNewCustomer.feature:7)
 </pre></div></td>
-<td>20</td>
+<td>73</td>
+<td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
+<tr>
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "datadriven", "login"</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-5G78EO0&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:587)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:179)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_setup_browser(StepDefinitionsForCrossBrowsing.java:54)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:179)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_setup_browser(StepDefinitionsForCrossBrowsing.java:54)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace557654002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557654002'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-5G78EO0&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:587)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:179)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_setup_browser(StepDefinitionsForCrossBrowsing.java:54)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:179)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:110)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:94)
+	at stepdefinitions.StepDefinitionsForCrossBrowsing.i_setup_browser(StepDefinitionsForCrossBrowsing.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:49237
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "datadriven", "login"</td>
+<td></td>
+<td>27</td>
+<td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
+<tr>
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "datadriven", "login"</td>
+<td></td>
+<td>31</td>
+<td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
+<tr>
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login", "login"</td>
+<td></td>
+<td>28</td>
+<td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
+<tr>
+<td title='testRunner.CrossBrowsingRunnerTest.runScenario()'><b>runScenario</b><br>Test class: testRunner.CrossBrowsingRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add tariff", "Add new Customer in telecom application"</td>
+<td></td>
+<td>131</td>
 <td>testRunner.CrossBrowsingRunnerTest@68567e20</td></tr>
 </table><p>
 </body>

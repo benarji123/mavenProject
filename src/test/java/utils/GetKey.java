@@ -13,10 +13,10 @@ public class GetKey {
 	
   
    public static	ThreadLocal<Properties>property=new ThreadLocal<Properties>();
-   public static 	String s=System.getProperty("user.dir")+"/src/test/resources/file.properties";
+   private static 	String s=System.getProperty("user.dir")+"/src/test/resources/file.properties";
    
 	public static Properties cofing()  {
-		Properties 	p=new Properties();
+		  Properties  p=new Properties();
 	  
      try {
 		p.load(new FileInputStream(new File(s)));

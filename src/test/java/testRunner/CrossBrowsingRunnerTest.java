@@ -22,10 +22,10 @@ import utils.GetKey;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ={"src\\test\\resources\\parallel\\Login.feature"},
+@CucumberOptions(features ={"src//test//resources//parallel"},
   glue={"stepdefinitions"},monochrome = true,
   dryRun =false,plugin= {"pretty","html:target/reports.html","json:target/report.json","junit:target/reports.xml"
-		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},tags="@login")
+		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
   
 ///  plugin = {})
@@ -36,6 +36,8 @@ public class CrossBrowsingRunnerTest extends AbstractTestNGCucumberTests{
 //		System.out.print("this is method");
 		//install the localthread
 		GetKey.cofing();
+		
+	
 //		k.setValue("browser", browse);
 		System.out.println("this is before method");
 		if(!browser.equalsIgnoreCase("no value")) {

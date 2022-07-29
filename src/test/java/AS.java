@@ -8,19 +8,22 @@ public class AS {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		// TODO Auto-generated method stub
-		String s=System.getProperty("user.dir")+"/src/test/resources/file.properties";
-		ThreadLocal<Properties>property=new ThreadLocal<Properties>();
-		Properties p=new Properties();
-		p.load(new FileInputStream(new File(s)));
-		property.set(p);
+//		String s=System.getProperty("user.dir")+"/src/test/resources/file.properties";
+//		ThreadLocal<Properties>property=new ThreadLocal<Properties>();
+//		Properties p=new Properties();
+//		p.load(new FileInputStream(new File(s)));
+//		property.set(p);
+//
+//		System.out.println(property.get());
+//		property.get().setProperty("BrowserType", "ALekg");
+//		System.out.println(property.get().getProperty("BrowserType"));
+//
+//		System.out.println(property.get());
+//		property.get().setProperty("BrowserType", "benarji");
+//		System.out.println(property.get());
+		
 
-		System.out.println(property.get());
-		property.get().setProperty("BrowserType", "ALekg");
-		System.out.println(property.get().getProperty("BrowserType"));
-
-		System.out.println(property.get());
-		property.get().setProperty("BrowserType", "benarji");
-		System.out.println(property.get());
 	}
+	
 
 }
