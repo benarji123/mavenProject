@@ -25,7 +25,7 @@ import utils.GetKey;
 @CucumberOptions(features ={"src//test//resources//parallel"},
   glue={"stepdefinitions"},monochrome = true,
   dryRun =false,plugin= {"pretty","html:target/reports.html","json:target/report.json","junit:target/reports.xml"
-		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},tags="@login")
 
   
 ///  plugin = {})
